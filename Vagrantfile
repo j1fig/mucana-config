@@ -12,5 +12,5 @@ Vagrant.configure("2") do |config|
 
   config.ssh.username = "IEUser"
   config.ssh.password = "Passw0rd!"
-  config.ssh.extra_args = "cmd"  # cmd or powershell
+  config.ssh.extra_args = "powershell"  # cmd or powershell
 end
